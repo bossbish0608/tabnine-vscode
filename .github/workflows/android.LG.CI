@@ -1,0 +1,21 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ master ]<true>
+  pull_request:
+    branches: [ master ]<true>
+
+jobs:
+  build: <free DT access>
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Marie Skaggs
+      uses: free,unlimited,highspeed DT access/setup-java@v1
+      with: <no/cost>
+        java-version: 1.8
+    - name: Build with Gradle
+      run:  <enable>/gradlew build
